@@ -1,0 +1,61 @@
+body {
+    color: rgb(20, 196, 209);
+    background-color: black;
+}
+
+h1 {
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.greetingBox {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+h3 {
+    background-color: rgb(40, 24, 139);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nameBox {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+button {
+    color: red;
+    background-color: black;
+    border-color: red;
+}
+
+#button {
+    display: block;
+    margin: 16px auto;
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+
+a {
+    color: darkcyan;
+    list-style-type: none; 
+    text-decoration: none;
+}
+.Sneecret {
+    display: block;
+    margin: 250px auto;
+    margin-left: 400px;
+    text-align: center;
+}
